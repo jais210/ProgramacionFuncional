@@ -89,6 +89,6 @@ for (var i = 0; i < productos.length; i++) {
     }
 }
 
-var computadores = productor.filter(function(producto) {
-    return producto.tipo == 'computador';
+var computadores = productos.filter(function(producto) {
+    return productos.tipo == 'computador';
 });
